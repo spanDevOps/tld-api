@@ -14,7 +14,7 @@ app.use(
 
 // API endpoint to get the TLD
 app.get("/get-tld", (req, res) => {
-  res.json({ tld: "pm" }); // Replace "pm" with any default TLD you want
+  res.json({ tld: "xyz" }); // Replace "xyz" with any default TLD you want
 });
 
 // Start the server
